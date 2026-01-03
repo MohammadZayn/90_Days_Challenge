@@ -1,13 +1,3 @@
-# Count the anagrams of a list and separate them by length wise
-
-anagrams = ["eat","tea","at","ta","bat","tan","ate","nat"]
-new_list = []
-for word in anagrams:
-    new = [oword for oword in anagrams if sorted(word) == sorted(oword)]
-    if new not in new_list:
-        new_list.append(new)
-print(new_list)
-
 # Reverse a string without using built-in reverse functions
 #1
 string = "Mohammad is a bad boy"
